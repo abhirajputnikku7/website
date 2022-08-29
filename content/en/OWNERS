@@ -11,3 +11,38 @@ approvers:
 
 labels:
 - language/en
+From 8ebd741c839af2b309a89a35a372055769f1f26d Mon Sep 17 00:00:00 2001
+From: kadtendulkar <kadambinitendulkar12@gmail.com>
+Date: Mon, 29 Aug 2022 22:26:36 +0530
+Subject: [PATCH] Update
+ content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
+
+---
+ .../concepts/scheduling-eviction/topology-spread-constraints.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md b/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
+index 060338ff4230..b8f76737670e 100644
+--- a/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
++++ b/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
+@@ -496,7 +496,7 @@ topology spread constraints are applied to a Pod if, and only if:
+ 
+ Default constraints can be set as part of the `PodTopologySpread` plugin
+ arguments in a [scheduling profile](/docs/reference/scheduling/config/#profiles).
+-The constraints are specified with the same [API above](#api), except that
++The constraints are specified with the same [API above](#topologyspreadconstraints-field), except that
+ `labelSelector` must be empty. The selectors are calculated from the Services,
+ ReplicaSets, StatefulSets or ReplicationControllers that the Pod belongs to.
+ diff --git a/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md b/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
+index 060338ff4230..b8f76737670e 100644
+--- a/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
++++ b/content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md
+@@ -496,7 +496,7 @@ topology spread constraints are applied to a Pod if, and only if:
+ 
+ Default constraints can be set as part of the `PodTopologySpread` plugin
+ arguments in a [scheduling profile](/docs/reference/scheduling/config/#profiles).
+-The constraints are specified with the same [API above](#api), except that
++The constraints are specified with the same [API above](#topologyspreadconstraints-field), except that
+ `labelSelector` must be empty. The selectors are calculated from the Services,
+ ReplicaSets, StatefulSets or ReplicationControllers that the Pod belongs to.
+ 
